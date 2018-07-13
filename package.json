@@ -1,0 +1,13 @@
+{
+ "name": "Alvin",
+ "description": "Alvin",
+ "version": "0.0.0",
+ "main": "bot.js", NAME OF BOT FILE
+ "scripts": {
+   "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.ks": "11.1.0",
+    "request": "2.81.0"
+   }
+  }
