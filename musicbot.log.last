@@ -1,0 +1,372 @@
+[99.659204483] 2018-05-20 22:17:58,953 - INFO - launcher: Starting sanity checks
+[100.659847260] 2018-05-20 22:17:58,954 - INFO - launcher: Checking for python 3.5+
+[100.659847260] 2018-05-20 22:17:58,954 - INFO - launcher: Checking console encoding
+[101.661443710] 2018-05-20 22:17:58,955 - INFO - launcher: Setting console encoding to UTF-8
+[101.661443710] 2018-05-20 22:17:58,955 - INFO - launcher: Ensuring we're in the right folder
+[104.664087296] 2018-05-20 22:17:58,958 - INFO - launcher: Adding local bins/ folder to path
+[106.666326523] 2018-05-20 22:17:58,960 - INFO - launcher: Checks passed.
+[107.666969299] 2018-05-20 22:17:58,961 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.5462906360626221] 2018-05-20 22:18:02,399 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 203 in _setup_logging: Set logging level to INFO
+[3.5467905998229980] 2018-05-20 22:18:02,400 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 76 in __init__: Loaded autoplaylist with 2531 entries
+[3.550898314] launcher-INFO: Connecting
+[6.1475973129272461] 2018-05-20 22:18:05,001 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 993 in on_ready: Connection established, ready to go.
+[6.1480984687805176] 2018-05-20 22:18:05,001 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 314 in _cache_app_info: Caching app info
+[6.2012405395507812] 2018-05-20 22:18:05,054 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[6.2042453289031982] 2018-05-20 22:18:05,057 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 826 in _scheck_server_permissions: Checking server permissions
+[6.2042453289031982] 2018-05-20 22:18:05,057 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[6.2042453289031982] 2018-05-20 22:18:05,057 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 834 in _scheck_configs: Validating config
+[6.2052440643310547] 2018-05-20 22:18:05,058 - DEBUG - musicbot.config | In config.py::MainThread(11380), line 175 in async_validate: Validating options...
+[6.2052440643310547] 2018-05-20 22:18:05,058 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 837 in _scheck_configs: Validating permissions config
+[6.2052440643310547] 2018-05-20 22:18:05,058 - DEBUG - musicbot.permissions | In permissions.py::MainThread(11380), line 59 in async_validate: Validating permissions...
+[6.2062456607818604] 2018-05-20 22:18:05,059 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[6.2072458267211914] 2018-05-20 22:18:05,060 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1014 in on_ready: Bot:   394279518904516609/A̸͗̄l̴͛̐v̴̒͗i̷̎͠n̴̈́͝#1312 [BOT]
+[6.2082476615905762] 2018-05-20 22:18:05,061 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1022 in on_ready: Owner: 223196668936323072/Shib#6894
+
+[6.2092473506927490] 2018-05-20 22:18:05,062 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1025 in on_ready: Server List:
+[6.2102489471435547] 2018-05-20 22:18:05,063 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1026 in <listcomp>:  - Gud timez™
+[6.2102489471435547] 2018-05-20 22:18:05,063 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1026 in <listcomp>:  - USSC
+[6.2112503051757812] 2018-05-20 22:18:05,064 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1070 in on_ready: Not bound to any text channels
+[6.2122511863708496] 2018-05-20 22:18:05,065 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1096 in on_ready: Not autojoining any voice channels
+[6.2132515907287598] 2018-05-20 22:18:05,066 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1100 in on_ready: Options:
+[6.2142522335052490] 2018-05-20 22:18:05,067 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1102 in on_ready:   Command prefix: >
+[6.2162547111511230] 2018-05-20 22:18:05,069 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1103 in on_ready:   Default volume: 25%
+[6.2172563076019287] 2018-05-20 22:18:05,070 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1105 in on_ready:   Skip threshold: 1 votes or 0%
+[6.2182550430297852] 2018-05-20 22:18:05,071 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1106 in on_ready:   Now Playing @mentions: Disabled
+[6.2192575931549072] 2018-05-20 22:18:05,072 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1107 in on_ready:   Auto-Summon: Disabled
+[6.2202570438385010] 2018-05-20 22:18:05,073 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1108 in on_ready:   Auto-Playlist: Disabled
+[6.2212598323822021] 2018-05-20 22:18:05,074 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1109 in on_ready:   Auto-Pause: Enabled
+[6.2222597599029541] 2018-05-20 22:18:05,075 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1110 in on_ready:   Delete Messages: Enabled
+[6.2232601642608643] 2018-05-20 22:18:05,076 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1112 in on_ready:     Delete Invoking: Disabled
+[6.2252624034881592] 2018-05-20 22:18:05,078 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1113 in on_ready:   Debug Mode: Disabled
+[6.2252624034881592] 2018-05-20 22:18:05,078 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1114 in on_ready:   Downloaded songs will be saved
+[41.4503636360168457] 2018-05-20 22:18:40,304 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 2592 in on_server_join: Bot has been joined server: Snowy Forest
+[41.4533669948577881] 2018-05-20 22:18:40,307 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 2605 in on_server_join: Creating data folder for server 438177748666810370
+[14027.7140038013458252] 2018-05-21 02:11:46,567 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 2621 in on_server_available: Server "Gud timez™" has become available.
+[14027.7452621459960938] 2018-05-21 02:11:46,598 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 2621 in on_server_available: Server "Snowy Forest" has become available.
+[14027.7452621459960938] 2018-05-21 02:11:46,598 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 2621 in on_server_available: Server "USSC" has become available.
+[14029.7083978652954102] 2018-05-21 02:11:48,562 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 993 in on_ready: Connection established, ready to go.
+[14029.7083978652954102] 2018-05-21 02:11:48,562 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 998 in on_ready: Received additional READY event, may have failed to resume
+[86438.194360971] launcher-ERROR: Error starting bot
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 601, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\selector_events.py", line 450, in sock_connect
+    return (yield from fut)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\selector_events.py", line 480, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+OSError: [Errno 10065] Connect call failed ('104.16.58.5', 443)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 624, in _create_direct_connection
+    (req.host, req.port, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 10065] Can not connect to discordapp.com:443 [Connect call failed ('104.16.58.5', 443)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "run.py", line 351, in main
+    m.run()
+  File "C:\Users\Administrator\Desktop\MusicBot-master\musicbot\bot.py", line 942, in run
+    self.loop.run_until_complete(self.start(*self.config.auth))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 491, in start
+    yield from self.connect()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\gateway.py", line 203, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\http.py", line 633, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 10065] Cannot connect to host discordapp.com:443 ssl:True [Can not connect to discordapp.com:443 [Connect call failed ('104.16.58.5', 443)]]
+[86442.108770370] launcher-INFO: Restarting in 2 seconds...
+[86444.8736608028411865] 2018-05-21 22:18:43,727 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 168 in _setup_logging: Skipping logger setup, already set up
+[86444.8736608028411865] 2018-05-21 22:18:43,727 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 76 in __init__: Loaded autoplaylist with 2531 entries
+[86444.873660803] launcher-INFO: Connecting
+[86448.2440218925476074] 2018-05-21 22:18:47,097 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 993 in on_ready: Connection established, ready to go.
+[86448.2440218925476074] 2018-05-21 22:18:47,097 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 314 in _cache_app_info: Caching app info
+[86448.2970077991485596] 2018-05-21 22:18:47,150 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[86448.3283979892730713] 2018-05-21 22:18:47,182 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 826 in _scheck_server_permissions: Checking server permissions
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 834 in _scheck_configs: Validating config
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - DEBUG - musicbot.config | In config.py::MainThread(11380), line 175 in async_validate: Validating options...
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 837 in _scheck_configs: Validating permissions config
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - DEBUG - musicbot.permissions | In permissions.py::MainThread(11380), line 59 in async_validate: Validating permissions...
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1014 in on_ready: Bot:   394279518904516609/A̸͗̄l̴͛̐v̴̒͗i̷̎͠n̴̈́͝#1312 [BOT]
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1022 in on_ready: Owner: 223196668936323072/Shib#6894
+
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1025 in on_ready: Server List:
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1026 in <listcomp>:  - Gud timez™
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1026 in <listcomp>:  - USSC
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1026 in <listcomp>:  - Snowy Forest
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1070 in on_ready: Not bound to any text channels
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1096 in on_ready: Not autojoining any voice channels
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1100 in on_ready: Options:
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1102 in on_ready:   Command prefix: >
+[86448.3440251350402832] 2018-05-21 22:18:47,197 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1103 in on_ready:   Default volume: 25%
+[86448.3606610298156738] 2018-05-21 22:18:47,214 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1105 in on_ready:   Skip threshold: 1 votes or 0%
+[86448.3616628646850586] 2018-05-21 22:18:47,215 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1106 in on_ready:   Now Playing @mentions: Disabled
+[86448.3626627922058105] 2018-05-21 22:18:47,216 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1107 in on_ready:   Auto-Summon: Disabled
+[86448.3636636734008789] 2018-05-21 22:18:47,217 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1108 in on_ready:   Auto-Playlist: Disabled
+[86448.3651711940765381] 2018-05-21 22:18:47,218 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1109 in on_ready:   Auto-Pause: Enabled
+[86448.3656702041625977] 2018-05-21 22:18:47,219 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1110 in on_ready:   Delete Messages: Enabled
+[86448.3656702041625977] 2018-05-21 22:18:47,219 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1112 in on_ready:     Delete Invoking: Disabled
+[86448.3656702041625977] 2018-05-21 22:18:47,219 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1113 in on_ready:   Debug Mode: Disabled
+[86448.3656702041625977] 2018-05-21 22:18:47,219 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1114 in on_ready:   Downloaded songs will be saved
+[101484.129537344] launcher-ERROR: Error starting bot
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 601, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\selector_events.py", line 450, in sock_connect
+    return (yield from fut)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\selector_events.py", line 480, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+OSError: [Errno 10065] Connect call failed ('104.16.59.5', 443)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 624, in _create_direct_connection
+    (req.host, req.port, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 10065] Can not connect to discordapp.com:443 [Connect call failed ('104.16.59.5', 443)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "run.py", line 351, in main
+    m.run()
+  File "C:\Users\Administrator\Desktop\MusicBot-master\musicbot\bot.py", line 942, in run
+    self.loop.run_until_complete(self.start(*self.config.auth))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 491, in start
+    yield from self.connect()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\gateway.py", line 203, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\http.py", line 633, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 10065] Cannot connect to host discordapp.com:443 ssl:True [Can not connect to discordapp.com:443 [Connect call failed ('104.16.59.5', 443)]]
+[101484.157062769] launcher-INFO: Restarting in 4 seconds...
+[101488.2458937168121338] 2018-05-22 02:29:27,099 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 168 in _setup_logging: Skipping logger setup, already set up
+[101488.2468938827514648] 2018-05-22 02:29:27,100 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 76 in __init__: Loaded autoplaylist with 2531 entries
+[101488.250396967] launcher-INFO: Connecting
+[101490.9485950469970703] 2018-05-22 02:29:29,802 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 993 in on_ready: Connection established, ready to go.
+[101490.9490954875946045] 2018-05-22 02:29:29,802 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 314 in _cache_app_info: Caching app info
+[101490.9854598045349121] 2018-05-22 02:29:29,839 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 826 in _scheck_server_permissions: Checking server permissions
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 834 in _scheck_configs: Validating config
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - DEBUG - musicbot.config | In config.py::MainThread(11380), line 175 in async_validate: Validating options...
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 837 in _scheck_configs: Validating permissions config
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - DEBUG - musicbot.permissions | In permissions.py::MainThread(11380), line 59 in async_validate: Validating permissions...
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1014 in on_ready: Bot:   394279518904516609/A̸͗̄l̴͛̐v̴̒͗i̷̎͠n̴̈́͝#1312 [BOT]
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1022 in on_ready: Owner: 223196668936323072/Shib#6894
+
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1025 in on_ready: Server List:
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1026 in <listcomp>:  - Gud timez™
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1026 in <listcomp>:  - USSC
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1026 in <listcomp>:  - Snowy Forest
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1070 in on_ready: Not bound to any text channels
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1096 in on_ready: Not autojoining any voice channels
+[101491.0696668624877930] 2018-05-22 02:29:29,923 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1100 in on_ready: Options:
+[101491.0852892398834229] 2018-05-22 02:29:29,938 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1102 in on_ready:   Command prefix: >
+[101491.0852892398834229] 2018-05-22 02:29:29,938 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1103 in on_ready:   Default volume: 25%
+[101491.0852892398834229] 2018-05-22 02:29:29,938 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1105 in on_ready:   Skip threshold: 1 votes or 0%
+[101491.0852892398834229] 2018-05-22 02:29:29,938 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1106 in on_ready:   Now Playing @mentions: Disabled
+[101491.0852892398834229] 2018-05-22 02:29:29,938 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1107 in on_ready:   Auto-Summon: Disabled
+[101491.0852892398834229] 2018-05-22 02:29:29,938 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1108 in on_ready:   Auto-Playlist: Disabled
+[101491.0852892398834229] 2018-05-22 02:29:29,938 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1109 in on_ready:   Auto-Pause: Enabled
+[101491.0852892398834229] 2018-05-22 02:29:29,938 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1110 in on_ready:   Delete Messages: Enabled
+[101491.0852892398834229] 2018-05-22 02:29:29,938 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1112 in on_ready:     Delete Invoking: Disabled
+[101491.0852892398834229] 2018-05-22 02:29:29,938 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1113 in on_ready:   Debug Mode: Disabled
+[101491.0852892398834229] 2018-05-22 02:29:29,938 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1114 in on_ready:   Downloaded songs will be saved
+[176626.790011168] launcher-ERROR: Error starting bot
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 601, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\selector_events.py", line 450, in sock_connect
+    return (yield from fut)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\selector_events.py", line 480, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+OSError: [Errno 10065] Connect call failed ('104.16.58.5', 443)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 624, in _create_direct_connection
+    (req.host, req.port, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 10065] Can not connect to discordapp.com:443 [Connect call failed ('104.16.58.5', 443)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "run.py", line 351, in main
+    m.run()
+  File "C:\Users\Administrator\Desktop\MusicBot-master\musicbot\bot.py", line 942, in run
+    self.loop.run_until_complete(self.start(*self.config.auth))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 491, in start
+    yield from self.connect()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\gateway.py", line 203, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\http.py", line 633, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 10065] Cannot connect to host discordapp.com:443 ssl:True [Can not connect to discordapp.com:443 [Connect call failed ('104.16.58.5', 443)]]
+[176630.548022985] launcher-INFO: Restarting in 6 seconds...
+[176636.8055944442749023] 2018-05-22 23:21:55,659 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 168 in _setup_logging: Skipping logger setup, already set up
+[176636.8055944442749023] 2018-05-22 23:21:55,659 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 76 in __init__: Loaded autoplaylist with 2531 entries
+[176636.821213484] launcher-INFO: Connecting
+[176639.7208962440490723] 2018-05-22 23:21:58,574 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 993 in on_ready: Connection established, ready to go.
+[176639.7208962440490723] 2018-05-22 23:21:58,574 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 314 in _cache_app_info: Caching app info
+[176640.6736514568328857] 2018-05-22 23:21:59,527 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 826 in _scheck_server_permissions: Checking server permissions
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 834 in _scheck_configs: Validating config
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - DEBUG - musicbot.config | In config.py::MainThread(11380), line 175 in async_validate: Validating options...
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 837 in _scheck_configs: Validating permissions config
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - DEBUG - musicbot.permissions | In permissions.py::MainThread(11380), line 59 in async_validate: Validating permissions...
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1014 in on_ready: Bot:   394279518904516609/A̸͗̄l̴͛̐v̴̒͗i̷̎͠n̴̈́͝#1312 [BOT]
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1022 in on_ready: Owner: 223196668936323072/Shib#6894
+
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1025 in on_ready: Server List:
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1026 in <listcomp>:  - Gud timez™
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1026 in <listcomp>:  - USSC
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1026 in <listcomp>:  - Snowy Forest
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1070 in on_ready: Not bound to any text channels
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1096 in on_ready: Not autojoining any voice channels
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1100 in on_ready: Options:
+[176640.6892189979553223] 2018-05-22 23:21:59,542 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1102 in on_ready:   Command prefix: >
+[176640.7049036026000977] 2018-05-22 23:21:59,558 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1103 in on_ready:   Default volume: 25%
+[176640.7049036026000977] 2018-05-22 23:21:59,558 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1105 in on_ready:   Skip threshold: 1 votes or 0%
+[176640.7049036026000977] 2018-05-22 23:21:59,558 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1106 in on_ready:   Now Playing @mentions: Disabled
+[176640.7049036026000977] 2018-05-22 23:21:59,558 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1107 in on_ready:   Auto-Summon: Disabled
+[176640.7049036026000977] 2018-05-22 23:21:59,558 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1108 in on_ready:   Auto-Playlist: Disabled
+[176640.7049036026000977] 2018-05-22 23:21:59,558 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1109 in on_ready:   Auto-Pause: Enabled
+[176640.7049036026000977] 2018-05-22 23:21:59,558 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1110 in on_ready:   Delete Messages: Enabled
+[176640.7049036026000977] 2018-05-22 23:21:59,558 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1112 in on_ready:     Delete Invoking: Disabled
+[176640.7049036026000977] 2018-05-22 23:21:59,558 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1113 in on_ready:   Debug Mode: Disabled
+[176640.7049036026000977] 2018-05-22 23:21:59,558 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 1114 in on_ready:   Downloaded songs will be saved
+[176766.8645517826080322] 2018-05-22 23:24:05,718 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11380), line 2528 in on_voice_state_update: Voice state update for 308420871251427338/Kasyu#9211 on Snowy Forest/Special Snowflakes -> [DISCONNECT]
+[176766.9941682815551758] 2018-05-22 23:24:05,847 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11380), line 2528 in on_voice_state_update: Voice state update for 353747588262133762/midnight#3726 on Snowy Forest/Special Snowflakes -> [DISCONNECT]
+[176775.2757003307342529] 2018-05-22 23:24:14,129 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11380), line 2528 in on_voice_state_update: Voice state update for 184405311681986560/FredBoat♪♪#7284 on Snowy Forest/Special Snowflakes -> [DISCONNECT]
+[177478.037427664] launcher-INFO: Restarting in 8 seconds...
+[177486.0956614017486572] 2018-05-22 23:36:04,949 - DEBUG - musicbot.bot | In bot.py::MainThread(11380), line 168 in _setup_logging: Skipping logger setup, already set up
+[177486.0956614017486572] 2018-05-22 23:36:04,949 - INFO - musicbot.bot | In bot.py::MainThread(11380), line 76 in __init__: Loaded autoplaylist with 2531 entries
+[177486.095661402] launcher-INFO: Connecting
+[177522.194128513] launcher-ERROR: Error starting bot
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 601, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\selector_events.py", line 450, in sock_connect
+    return (yield from fut)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\selector_events.py", line 480, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+TimeoutError: [Errno 10060] Connect call failed ('104.16.58.5', 443)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 624, in _create_direct_connection
+    (req.host, req.port, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 10060] Can not connect to discordapp.com:443 [Connect call failed ('104.16.58.5', 443)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "run.py", line 351, in main
+    m.run()
+  File "C:\Users\Administrator\Desktop\MusicBot-master\musicbot\bot.py", line 942, in run
+    self.loop.run_until_complete(self.start(*self.config.auth))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\asyncio\base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 490, in start
+    yield from self.login(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\aiohttp\connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 10060] Cannot connect to host discordapp.com:443 ssl:True [Can not connect to discordapp.com:443 [Connect call failed ('104.16.58.5', 443)]]
+[177522.514483929] launcher-INFO: All done.
